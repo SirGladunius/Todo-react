@@ -1,0 +1,50 @@
+
+
+.root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Header{
+    font-size: 500%;
+    color: #a6e4f6 ;
+    background-color: #429785 ;
+    width: 100%;
+    height: 15%;
+}
+
+.TaskList{
+
+    width: 100%;
+    height: 70%;
+    background-color: #1cb49a  ;
+}
+.BlockСreature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: #137462  ;
+}
+
+.InputTask{
+    border: 0;
+    color: #a6e4f6;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #198f76;
+    width: 60%;
+    height: 60%;
+}
+
+.ButtonTask{
+    border: 0;
+    border-radius: 10px;
+    background-color: #1b9a7f;
+    width: 20%;
+    height: 60%;
+}
