@@ -1,6 +1,5 @@
 import TodoItem from '../components/TodoItem'
 import classes from './TodoList.module.css'
-import ReactDOM from 'react-dom'
 import React, {useState} from 'react'
 import Modals from "../Modal/Modals";
 

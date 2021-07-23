@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card, Form} from "react-bootstrap";
+
 import classes from "./App.module.css"
 import '../containers/TodoList.module.css'
-import TodoItem from "../containers/TodoList";
+
 import TodoList from "../containers/TodoList";
 import AddIcon from '@material-ui/icons/Add';
 import LocalStorageService from '../LocalStorage/LocalStorage'

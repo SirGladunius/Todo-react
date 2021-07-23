@@ -1,7 +1,7 @@
 import classes from './TodoItem.module.css'
 import DeleteIcon from '@material-ui/icons/Delete';
 import EditIcon from '@material-ui/icons/Edit';
-import {logDOM} from "@testing-library/react";
+
 
     const TodoItem = ({text, deleteFunction, editElem,checkItem,isChecked }) => {
     return (
