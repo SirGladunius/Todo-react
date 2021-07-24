@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import classes from "./Modals.module.css"
 import {Modal} from "@material-ui/core";
-import LocalStorageService from '../LocalStorage/LocalStorage'
 
-function Modals(props){
+function Modals(props: any){
     const [input,setInput]=useState('')
 
     return (
@@ -15,9 +14,6 @@ function Modals(props){
         arr[props.index].text = input
         props.setTodos(arr)
         console.log(localStorage.getItem("arr"))
-        // props.todos[props.index].text=input
-        // console.log(props.todos)
-        // console.log(props.index)
          setInput('')
         props.onClose()
     }}>Изменить</button>
